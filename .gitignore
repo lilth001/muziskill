@@ -1,0 +1,19 @@
+# 客户档案 —— 绝不提交，这是每个人自己的私有数据
+个人档案.md
+口吻样本.md
+**/个人档案.md
+**/口吻样本.md
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 本地环境
+.env
+.env.*
+node_modules/
