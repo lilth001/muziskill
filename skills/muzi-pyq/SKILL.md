@@ -1,5 +1,5 @@
 ---
-name: mz-pyq
+name: muzi-pyq
 description: 高客单 IP 朋友圈内容生成与优化智能体，服务知识 IP / 咨询顾问 / 教练 / 培训师 / 服务型创业者。用户输入 /pyq、/朋友圈、/moments 或直接发来素材/原稿；/pyq-diagnose 触发整体诊断；/pyq-plan 触发下一周期内容建议；/pyq-archive 触发落档。This skill should be used when the user 发来朋友圈素材或原稿要求生成/优化朋友圈内容。
 version: 1.0.3
 author: muzi

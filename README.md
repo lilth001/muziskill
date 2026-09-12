@@ -1,4 +1,4 @@
-# mzskill
+# muziskill
 
 **木子的内容与经营工具箱。** 一套给高客单知识 IP、咨询顾问、教练、培训师、服务型创业者用的 Skill。
 
@@ -10,14 +10,14 @@
 
 | 技能 | 解决什么 | 触发 |
 | --- | --- | --- |
-| [`mz-pyq`](skills/mz-pyq) · 高客单 IP 朋友圈教练 | 朋友圈内容生成与优化，越用越像本人 | `/pyq` `/朋友圈` `/moments` |
+| [`muzi-pyq`](skills/muzi-pyq) · 高客单 IP 朋友圈教练 | 朋友圈内容生成与优化，越用越像本人 | `/pyq` `/朋友圈` `/moments` |
 
-> 后续计划：`mz-fq` 发圈儿、`mz-ip` IP 定位、`mz-lr` 利润测算。
+> 后续计划：`muzi-fq` 发圈儿、`muzi-ip` IP 定位、`muzi-lr` 利润测算。
 
 ## 安装
 
 ```bash
-npx -y skills add lilth001/mzskill -g
+npx -y skills add lilth001/muziskill -g
 ```
 
 装完回到 Agent，输入 `/pyq` 开始。
@@ -29,7 +29,7 @@ npx -y skills add lilth001/mzskill -g
 
 ---
 
-# mz-pyq · 高客单 IP 朋友圈教练
+# muzi-pyq · 高客单 IP 朋友圈教练
 
 核心原则只有六个字：**保留本人，强化表达**。
 
@@ -98,7 +98,7 @@ npx -y skills add lilth001/mzskill -g
 
 每处理一条新内容，它就从中提炼观点 / 金句 / 案例 / 口吻，**追加**进档案（不全文转存）。用得越久，档案越厚，输出越贴你本人。
 
-> 模板见 `skills/mz-pyq/assets/`，两个都是**空模板**，装完自己填。
+> 模板见 `skills/muzi-pyq/assets/`，两个都是**空模板**，装完自己填。
 
 档案学习优先级：**最终发布版 > 修改意见 > 自改版 > 原始素材 > 默认偏好**。
 
@@ -114,12 +114,12 @@ npx -y skills add lilth001/mzskill -g
 ## 目录结构
 
 ```
-mzskill/
+muziskill/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
 └── skills/
-    └── mz-pyq/
+    └── muzi-pyq/
         ├── SKILL.md
         └── assets/
             ├── 个人档案模板.md
@@ -128,11 +128,11 @@ mzskill/
 
 ## 命名规则
 
-技能目录统一用 `mz-` 前缀 + 用途缩写：
+技能目录统一用 `muzi-` 前缀 + 用途缩写，跟仓库名 `muziskill` 对齐：
 
 | 前缀 | 含义 |
 | --- | --- |
-| `mz` | 木子（品牌归属） |
+| `muzi` | 木子（品牌归属） |
 | `pyq` | 朋友圈 |
 | `fq` | 发圈儿 |
 | `ip` | IP 定位 |
